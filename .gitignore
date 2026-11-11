@@ -1,0 +1,78 @@
+# Local Claude setup and agent overrides
+.local/
+
+# Claude instructions and documentation
+CLAUDE.md
+claude.md
+*.md
+docs/
+**/docs/
+*.doc
+*.docx
+*.pdf
+*.rtf
+*.odt
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.png
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+
+# .NET / C#
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+artifacts/
+
+# Node.js / React / Vite
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Docker and local runtime data
+docker-data/
+**/docker-data/
+*.pid
+*.seed
+
+# IDEs and editor state
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Coverage and reports
+coverage/
+**/coverage/
+*.coverage
+*.lcov
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
